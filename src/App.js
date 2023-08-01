@@ -9,6 +9,7 @@ import Budget from './components/Budget';
 
 
 import { AppProvider } from './context/AppContext';
+import ExpenseList from './components/ExpenseList';
 const App = () => {
     return (
         <AppProvider>
@@ -21,7 +22,7 @@ const App = () => {
 
                         {/* Add ExpenseTotal component here under */}        
                        
-                        {/* Add ExpenseList component here under */}         
+                    <ExpenseList />         
 
                         {/* Add ExpenseItem component here under */}        
 
