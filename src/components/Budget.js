@@ -18,7 +18,7 @@ const Budget = () => {
             <label for="budget">{'Budget:' + currency}</label>
             <input
                 defaultValue={budget}
-                type="number"
+                type='number'
                 max={20000}
                 min={totalExpenses}
                 value={budget}
